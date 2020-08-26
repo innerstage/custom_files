@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hey Alex!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-  </head>
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRV36iz9mn3bT3-s5G17OO9FHY_2snUHGo-YQ&usqp=CAU"/>  
+</head>
   <body>
   <section class="section">
     <div class="container">
@@ -70,8 +70,10 @@
 </section>
 <section>
     <div class="buttons are-large is-centered">
-        <button class="button is-success is-medium" href="final_file.csv">Download the full CSV here (~ 100 Mb)</button>
-        <button class="button is-warning is-medium" href="final_file.csv.gz">Download the compressed file here (~ 20 Mb)</button>
+      <form method="get" action="final_file.csv">
+        <button class="button is-success is-medium" type="submit">Download the full CSV here (~ 123 Mb)</button></form>
+      <form method="get" action="final_file.csv.gz">
+        <button class="button is-warning is-medium" type="submit">Download the compressed file here (~ 27 Mb)</button></form>
     </div>
   </section>
   </body>
