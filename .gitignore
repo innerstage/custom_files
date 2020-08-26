@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 
 py3/
-final_file.csv
-funny_website/
+puma_occupation/final_file.csv
